@@ -1,0 +1,25 @@
+{
+  "name": "csonify",
+  "version": "1.0.0",
+  "description": "A browserify transform for turning .cson files into .json",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Calvein/csonify.git"
+  },
+  "keywords": [
+    "cson",
+    "json",
+    "browserify"
+  ],
+  "author": "François Robichet <@calvein>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Calvein/csonify/issues"
+  },
+  "homepage": "https://github.com/Calvein/csonify",
+  "dependencies": {
+    "cson": "^2.0.0",
+    "through": "^2.3.6"
+  }
+}

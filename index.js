@@ -30,9 +30,8 @@ csonify.compile = function(file, data, cb) {
     var result = CSON.parseFile(file)
 
     if (result instanceof Error) {
-        return handleError(result, cb)
-    }
-    else {
+        throw new Error(result)
+    } else {
         cb(null, 'module.exports=' + JSON.stringify(result))
     }
 }
